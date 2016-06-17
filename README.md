@@ -14,3 +14,4 @@ some reference sources between study
 * [Swift编程思想-guard try? if 应用](http://www.cocoachina.com/swift/20160613/16632.html)
 * [类似网易的顶层分页导航](https://github.com/tianzhuo112/VTMagic)
 * [swift中版本比较](http://nshipster.cn/swift-system-version-checking/)
+* [插播一条Android Studio使用教程](http://www.open-open.com/lib/view/open1433387390635.html)
