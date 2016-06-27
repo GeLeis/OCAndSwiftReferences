@@ -15,3 +15,4 @@ some reference sources between study
 * [类似网易的顶层分页导航](https://github.com/tianzhuo112/VTMagic)
 * [swift中版本比较](http://nshipster.cn/swift-system-version-checking/)
 * [插播一条Android Studio使用教程](http://www.open-open.com/lib/view/open1433387390635.html)
+* [session保存登录状态信息](http://www.tuicool.com/articles/7NV3ueJ)
