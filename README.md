@@ -18,3 +18,4 @@ some reference sources between study
 * [session保存登录状态信息](http://www.tuicool.com/articles/7NV3ueJ)
 * [3DTouch在ios中的应用](http://www.cocoachina.com/ios/20160628/16825.html)
 * [IOS10中自定义Notification界面](http://www.cocoachina.com/ios/20160628/16833.html)
+* [git使用手册](http://www.cocoachina.com/ios/20160629/16855.html)
