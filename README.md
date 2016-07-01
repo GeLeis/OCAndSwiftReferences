@@ -20,3 +20,4 @@ some reference sources between study
 * [IOS10中自定义Notification界面](http://www.cocoachina.com/ios/20160628/16833.html)
 * [git使用手册](http://www.cocoachina.com/ios/20160629/16855.html)
 * [IQKeyboard解决键盘遮挡textView的placeholder问题](https://github.com/shorty-Man/IQKeyboardManager)
+* [编程风格指南](http://www.cocoachina.com/swift/20160701/16894.html)
