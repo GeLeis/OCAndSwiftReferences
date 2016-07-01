@@ -21,4 +21,4 @@ some reference sources between study
 * [git使用手册](http://www.cocoachina.com/ios/20160629/16855.html)
 * [IQKeyboard解决键盘遮挡textView的placeholder问题](https://github.com/shorty-Man/IQKeyboardManager)
 * [编程风格指南](http://www.cocoachina.com/swift/20160701/16894.html)
-* [ios直播SDK](https://github.com/shorty-Man/LiveVideoCoreSDK)
+* [ios直播SDK](https://github.com/shorty-Man/LiveVideoCoreSDK)[RTMP协议介绍及相关服务器](https://blog.linuxeye.com/383.html)
