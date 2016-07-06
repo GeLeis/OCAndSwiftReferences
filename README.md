@@ -26,3 +26,5 @@ some reference sources between study
 * [workspace的建立使用](http://www.jianshu.com/p/b6c59d8ed2c9)
 * [静态库,动态库,.a及.framework的区别](http://www.jianshu.com/p/90ef231441fc)
 * [音频视频录制播放](http://www.cnblogs.com/kenshincui/p/4186022.html#avFoundationCamera)，并参考[SlowMotionVideoRecorder](https://github.com/shorty-Man/SlowMotionVideoRecorder)以及[录制后视频压缩](http://www.jianshu.com/p/7c57c58c253d)
+* [swift中集成sirikit](http://www.cocoachina.com/swift/20160705/16940.html)
+* [ios10中collectionView和tableView优化](http://www.cocoachina.com/ios/20160706/16952.html)
