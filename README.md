@@ -28,3 +28,4 @@ some reference sources between study
 * [音频视频录制播放](http://www.cnblogs.com/kenshincui/p/4186022.html#avFoundationCamera)，并参考[SlowMotionVideoRecorder](https://github.com/shorty-Man/SlowMotionVideoRecorder)以及[录制后视频压缩](http://www.jianshu.com/p/7c57c58c253d)
 * [swift中集成sirikit](http://www.cocoachina.com/swift/20160705/16940.html)
 * [ios10中collectionView和tableView优化](http://www.cocoachina.com/ios/20160706/16952.html)
+* [多线程安全处理](http://www.cocoachina.com/ios/20160707/16957.html)
