@@ -33,3 +33,13 @@ some reference sources between study
 * [CALayer的应用](http://www.cocoachina.com/ios/20160711/17007.html)
 * [设计中的微交互效果](http://www.cocoachina.com/design/20160712/17014.html)
 * [tableView滚动过程中cell试图也在滚动](http://www.cocoachina.com/ios/20160712/17011.html)
+* 关于状态栏的改变，可以在baseNavigationController中调用如下方法来改变不同controller中的状态栏
+```objc
+-(UIStatusBarStyle)preferredStatusBarStyle{
+	if ([self.childViewControllers.lastObject isKindOfClass:[LYBMineRootViewController class]]) {
+		return UIStatusBarStyleLightContent;
+	}
+	return UIStatusBarStyleDefault;
+}
+
+```
