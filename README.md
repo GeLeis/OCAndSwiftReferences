@@ -32,3 +32,4 @@ some reference sources between study
 * 关于模拟器显示appIcon而真机却无法显示，可能是因为直接将jpg图片改成了png格式，这样是无法解析的。
 * [CALayer的应用](http://www.cocoachina.com/ios/20160711/17007.html)
 * [设计中的微交互效果](http://www.cocoachina.com/design/20160712/17014.html)
+* [tableView滚动过程中cell试图也在滚动](http://www.cocoachina.com/ios/20160712/17011.html)
