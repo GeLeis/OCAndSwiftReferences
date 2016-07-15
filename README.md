@@ -45,3 +45,4 @@ some reference sources between study
 ```
 * [ios中的宏定义](http://www.cocoachina.com/ios/20160713/17026.html)
 * [ios中.a和framework的创建](http://www.cocoachina.com/ios/20160713/17025.html)
+* [ios开发中wifi，网络ip开发](http://www.cocoachina.com/ios/20160715/17022.html)
