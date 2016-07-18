@@ -47,3 +47,9 @@ some reference sources between study
 * [ios中.a和framework的创建](http://www.cocoachina.com/ios/20160713/17025.html)
 * [ios开发中wifi，网络ip开发](http://www.cocoachina.com/ios/20160715/17022.html)
 * [自定义loading，及加载失败时refresh](https://github.com/jinxiansen/JHUD)
+* 屏蔽右滑返回功能
+```objc
+if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+		self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+	}
+```
