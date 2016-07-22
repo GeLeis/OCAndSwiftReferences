@@ -21,7 +21,7 @@ some reference sources between study
 * [git使用手册](http://www.cocoachina.com/ios/20160629/16855.html)
 * [IQKeyboard解决键盘遮挡textView的placeholder问题](https://github.com/shorty-Man/IQKeyboardManager)
 * [编程风格指南](http://www.cocoachina.com/swift/20160701/16894.html)
-* [ios直播SDK](https://github.com/shorty-Man/LiveVideoCoreSDK)[RTMP协议介绍及相关服务器](https://blog.linuxeye.com/383.html)
+* [ios直播SDK](https://github.com/shorty-Man/LiveVideoCoreSDK)[RTMP协议介绍及相关服务器](https://blog.linuxeye.com/383.html)[直播全教程](http://www.cocoachina.com/ios/20160721/17133.html)
 * [gif图片处理](https://github.com/Flipboard/FLAnimatedImage)
 * [workspace的建立使用](http://www.jianshu.com/p/b6c59d8ed2c9)
 * [静态库,动态库,.a及.framework的区别](http://www.jianshu.com/p/90ef231441fc)
