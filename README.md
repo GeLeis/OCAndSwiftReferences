@@ -65,3 +65,12 @@ UIBarMetricsDefault表示导航栏默认状态，包括横屏竖屏
 UIBarMetricsCompact表示导航栏横屏状态
 UIBarMetricsDefaultPrompt表示默认状态，并且navigationItem.prompt有值的情况下
 ```
+* mac终端常用的命令
+```
+control+u删除一整条命令，从新输入
+sudo !!相当于  sudo {上一条命令}，这样方便在漏掉sudo的情况下，快速执行上一条命令
+!＋字母，执行上一条以特定字母开头的命令
+history 查询命令历史
+&&将两条命令合并成一条命令
+reset将目前终端屏幕上的内容情况
+```
