@@ -75,3 +75,15 @@ history 查询命令历史
 reset将目前终端屏幕上的内容情况
 ```
 * [ios中图表绘制](https://github.com/danielgindi/Charts)
+* _cmd表示当前方法的selector，
+* 文本阴影NSShadow
+```objc
+NSShadow *shadow = [NSShadow new];
+shadow.shadowOffset = CGSizeZero;
+shadow.shadowBlurRadius = 5.0f;
+shadow.shadowColor = [UIColor colorWithWhite:0.0f alpha:0.3f];
+NSAttributedString *attString = [[NSAttributedString alloc] initWithString:@"www.olinone.com" attributes:@{NSShadowAttributeName: shadow, NSForegroundColorAttributeName: [UIColor whiteColor]}];
+lbl.attributedText = attString;
+实际效果是这样的，shadowBlurRadius值越小，文本描边越清晰
+```
+
