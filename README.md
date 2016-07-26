@@ -7,7 +7,7 @@ some reference sources between study
 * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON):swift中json数据解析
 * swift编程的几个典型例子：[SwiftWeather](https://github.com/shorty-Man/SwiftWeather)，[JokeClient](https://github.com/YANGReal/JokeClient-Swift)
 * [swfit指南](https://github.com/shorty-Man/SwiftGuide):swift学习资源整合
-* [JSPatch](https://github.com/shorty-Man/JSPatch):JSPatch在oc和swift中的应用，用javascript书写ios应用，动态加载模块，用脚本封装原生
+* [JSPatch](https://github.com/shorty-Man/JSPatch):JSPatch在oc和swift中的应用，用javascript书写ios应用，动态加载模块，用脚本封装原生,[JSPatch使用](http://www.voidcn.com/blog/jueyi1127/article/p-5756877.html)
 * [swift中常用的10个框架](http://www.cocoachina.com/swift/20160525/16437.html)
 * [网络图片资源](http://imgur.com )
 * reactNative[中文教程](http://reactnative.cn),[中文社区](http://bbs.reactnative.cn),[ES6语法](http://bbs.reactnative.cn/topic/15/react-react-native-的es5-es6写法对照表),[关于脚本封装原生存在的问题](http://bbs.reactnative.cn/topic/14/react-native-把现代web科技带给移动开发者/2),[javascript常用语法](http://reactnative.cn/docs/0.26/javascript-environment.html#content),[js.coachJS开源框架](https://js.coach/react-native/react-native-linear-gradient),[ECMAScript 6入门](http://es6.ruanyifeng.com/#README),[react native博客](http://www.cocoachina.com/ios/20160612/16654.html)
