@@ -86,4 +86,8 @@ NSAttributedString *attString = [[NSAttributedString alloc] initWithString:@"www
 lbl.attributedText = attString;
 实际效果是这样的，shadowBlurRadius值越小，文本描边越清晰
 ```
+* 数字签名:理解了非对称加密和摘要算法，来看一下数字签名。实际上数字签名就是两者结合。假设，我们有一段授权文本，需要发布，为了防止中途篡改文本内容，保证文本的完整性，以及文本是由指定的权限狗发的。首先，先将文本内容通过摘要算法，得到摘要，再用权限狗的私钥对摘要进行加密得到密文，将源文本、密文、和私钥对应的公钥一并发布即可。那么如何验证呢？
+验证方首先查看公钥是否是权限狗的，然后用公钥对密文进行解密得到摘要，将文本用同样的摘要算法得到摘要，两个摘要进行比对，如果相等那么一切正常。这个过程只要有一步出问题就视为无效。
 
+
+* [ipa的组成](http://www.pchou.info/ios/2015/12/14/ios-certification-and-code-sign.html)
