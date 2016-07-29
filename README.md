@@ -95,3 +95,4 @@ lbl.attributedText = attString;
 * [POP动画框架教程16/7/28](http://www.ui.cn/detail/21148.html)
 * [动画的时间控制CAMediaTimingFunction贝赛尔曲线](http://cubic-bezier.com/)
 * [ReactiveCocoa常用方法及类](http://www.cocoachina.com/ios/20160729/17236.html)
+* 自己做data缓存,比如图片,可以用sdCycleScrollView的Nsdate+sdDataCache
