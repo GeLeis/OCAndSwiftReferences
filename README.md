@@ -94,3 +94,4 @@ lbl.attributedText = attString;
 * [ios动画,UIview](http://www.cocoachina.com/ios/20160727/17199.html)
 * [POP动画框架教程16/7/28](http://www.ui.cn/detail/21148.html)
 * [动画的时间控制CAMediaTimingFunction贝赛尔曲线](http://cubic-bezier.com/)
+* [ReactiveCocoa常用方法及类](http://www.cocoachina.com/ios/20160729/17236.html)
