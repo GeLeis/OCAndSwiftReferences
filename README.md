@@ -96,3 +96,28 @@ lbl.attributedText = attString;
 * [动画的时间控制CAMediaTimingFunction贝赛尔曲线](http://cubic-bezier.com/)
 * [ReactiveCocoa常用方法及类](http://www.cocoachina.com/ios/20160729/17236.html)
 * 自己做data缓存,比如图片,可以用sdCycleScrollView的Nsdate+sdDataCache
+* 利用caLyaer在指定时间内画图
+```objc
+	UIBezierPath *path = [UIBezierPath bezierPath];
+	[path moveToPoint:CGPointMake(200, 100)];
+	[path addLineToPoint:CGPointMake(170, 170)];
+	[path addLineToPoint:CGPointMake(230, 170)];
+	[path closePath];
+	
+	CAShapeLayer *layer = [CAShapeLayer layer];
+	layer.path = path.CGPath;
+	layer.lineCap = kCALineCapRound;
+	layer.lineJoin = kCALineJoinRound;
+	layer.strokeColor = [UIColor redColor].CGColor;
+	layer.fillColor = nil;
+	CABasicAnimation * HideAnim = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
+	[HideAnim setFromValue:@0.0];
+	[HideAnim setToValue:@1.0];
+	[HideAnim setDuration:3];
+	HideAnim.beginTime = 0.0;
+	HideAnim.removedOnCompletion = NO;
+	HideAnim.fillMode = kCAFillModeForwards;
+	HideAnim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+	[layer addAnimation:HideAnim forKey:@"hid"];
+	[self.view.layer addSublayer:layer];
+```
