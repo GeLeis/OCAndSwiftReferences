@@ -121,3 +121,4 @@ lbl.attributedText = attString;
 	[layer addAnimation:HideAnim forKey:@"hid"];
 	[self.view.layer addSublayer:layer];
 ```
+* [YYCache快速建立sqlite缓存](https://github.com/shorty-Man/YYCache)
