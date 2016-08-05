@@ -144,4 +144,17 @@ lbl.attributedText = attString;
 	[self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 	[self.navigationController.navigationBar setShadowImage:[UIImage new]];
 ```
+* 解决scrollView中点击cell不能push出下个页面，但是可以通过popGesture返回。在当前controller中
+```objc
+-(void)viewDidload{
+if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.navigationController.interactivePopGestureRecognizer.delegate = self;
+}
+}
 
+#pragma mark - UIGestureRecognizerDelegate代理方法
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer{
+    return NO;
+}
+
+```
