@@ -126,3 +126,16 @@ lbl.attributedText = attString;
 * [设计准则](http://www.cocoachina.com/design/20160804/17292.html)
 * [ios开发工具下载](https://developer.apple.com/download/   )
 * [UISearchController的使用](https://github.com/shorty-Man/searchControllerDemo)
+* 制作任意形状的UIImageView
+```objc
+	_imageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 220, 75, 85)];
+	CALayer *maskLayer = [CALayer layer];
+	maskLayer.frame = self.imageView.bounds;
+	//设定边界样式的图片,实际的ImageView可大可小，按照一定比例设定边界样式图片的大小就好
+	UIImage *maskImage = [UIImage imageNamed:@"start_leader_decision_big"];
+	maskLayer.contents = CFBridgingRelease(maskImage.CGImage);
+	self.imageView.layer.mask = maskLayer;
+	[self.view addSubview:_imageView];
+	//给视图赋值图片
+	self.imageView.image = [UIImage imageNamed:@"role_level0_f"];
+```
