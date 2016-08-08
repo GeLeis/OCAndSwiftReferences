@@ -158,3 +158,19 @@ if ([self.navigationController respondsToSelector:@selector(interactivePopGestur
 }
 
 ```
+* [地图定位](http://code.cocoachina.com/download/132371)
+```objc
+	CLPlacemark *place = placemarks[0];
+        self.title = place.name;
+        NSLog(@"name,%@",place.name);                       // 位置名
+        NSLog(@"thoroughfare,%@",place.thoroughfare);       // 街道
+        NSLog(@"subThoroughfare,%@",place.subThoroughfare); // 子街道
+        NSLog(@"locality,%@",place.locality);               // 市
+        NSLog(@"subLocality,%@",place.subLocality);         // 区
+	NSLog(@"%@",place.administrativeArea);              //省
+	NSLog(@"%@",place.subAdministrativeArea);
+	NSLog(@"inlandWater%@",place.inlandWater);
+        NSLog(@"country,%@",place.country);                 // 国家
+        NSLog(@"error %@",error);
+       
+```
