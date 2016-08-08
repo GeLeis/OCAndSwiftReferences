@@ -174,3 +174,4 @@ if ([self.navigationController respondsToSelector:@selector(interactivePopGestur
         NSLog(@"error %@",error);
        
 ```
+* 通过viewWithTag方法来获取subView时，如果某个subView显示在父view之外，那么通过该方法是获取不到这个subview的
