@@ -177,7 +177,7 @@ if ([self.navigationController respondsToSelector:@selector(interactivePopGestur
 * 通过viewWithTag方法来获取subView时，如果某个subView显示在父view之外，那么通过该方法是获取不到这个subview的
 * [通过两个相对的view，设置上层view的mask来形成视觉差效果](http://www.cocoachina.com/ios/20160811/17340.html)
 * [ios中的runtiem,runloop理解](http://www.cocoachina.com/ios/20160817/17373.html)
-* ios中图片拉伸而不改变轮廓
+* [ios中图片拉伸而不改变轮廓](https://github.com/shorty-Man/popmenuIos)
 ```objc
 image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInsets:UIEdgeInsetsMake(15, 5, 15, 5)];
 //其中Insets这个参数的格式是(top,left,bottom,right)，从上、左、下、右分别在图片上画了一道线，这样就给一个图片加了一个框。只有在框里面的部分才会被拉伸，而框外面的部分则不会改变。
