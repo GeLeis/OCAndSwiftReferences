@@ -111,10 +111,10 @@ lbl.attributedText = attString;
 	layer.strokeColor = [UIColor redColor].CGColor;
 	layer.fillColor = nil;
 	CABasicAnimation * HideAnim = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-	[HideAnim setFromValue:@0.0];
+	[HideAnim setFromValue:@0.0];//0~1是，从无到有
 	[HideAnim setToValue:@1.0];
 	[HideAnim setDuration:3];
-	HideAnim.beginTime = 0.0;
+	HideAnim.beginTime = CACurrentMediaTime() + 2;//表示2s后执行该动画
 	HideAnim.removedOnCompletion = NO;
 	HideAnim.fillMode = kCAFillModeForwards;
 	HideAnim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
