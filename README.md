@@ -182,3 +182,10 @@ if ([self.navigationController respondsToSelector:@selector(interactivePopGestur
 image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInsets:UIEdgeInsetsMake(15, 5, 15, 5)];
 //其中Insets这个参数的格式是(top,left,bottom,right)，从上、左、下、右分别在图片上画了一道线，这样就给一个图片加了一个框。只有在框里面的部分才会被拉伸，而框外面的部分则不会改变。
 ```
+* 自定义按钮时如果指定style为system，那么设置背景图片时，会导致渲染颜色改变。应指定为custom
+* 手势共存
+```objc
+	//指定两个手势共存,,前者等待后者，确定后者不响应的情况下，前者才会响应
+	stylesCollectionView.panGestureRecognizer.requireGestureRecognizerToFail(navigationController!.panGestureRecognizer)
+```
+* 自动以导航控制器的跳转实现UIViewControllerAnimatedTransitioning协议
