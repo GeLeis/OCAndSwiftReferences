@@ -189,3 +189,4 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 	stylesCollectionView.panGestureRecognizer.requireGestureRecognizerToFail(navigationController!.panGestureRecognizer)
 ```
 * 自动以导航控制器的跳转实现UIViewControllerAnimatedTransitioning协议
+* [使用Cocoapods管理第三方库出现Undefined symbols for architecture i386 解决方法](http://www.jianshu.com/p/6c9de468337a)
