@@ -190,3 +190,21 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 ```
 * 自动以导航控制器的跳转实现UIViewControllerAnimatedTransitioning协议
 * [使用Cocoapods管理第三方库出现Undefined symbols for architecture i386 解决方法](http://www.jianshu.com/p/6c9de468337a)
+* 根据图片纹路进行渲染，改变图片颜色
+```objc
+	func imageWithColor(color:UIColor) -> UIImage {
+		UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
+		let context = UIGraphicsGetCurrentContext()
+		CGContextTranslateCTM(context, 0, self.size.height)
+		CGContextScaleCTM(context, 1.0, -1.0)
+		CGContextSetBlendMode(context, CGBlendMode.Normal)
+		let rect = CGRectMake(0, 0, self.size.width, self.size.height)
+		CGContextClipToMask(context, rect, self.CGImage)
+		color.setFill()
+		CGContextFillRect(context, rect)
+		let newImage = UIGraphicsGetImageFromCurrentImageContext()
+		UIGraphicsEndImageContext()
+		return newImage
+		
+	}
+```
