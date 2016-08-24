@@ -208,3 +208,16 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 		
 	}
 ```
+* [CAGradientLayer的使用](https://zsisme.gitbooks.io/ios-/content/chapter6/cagradientLayer.html)
+```objc
+-(CAGradientLayer *)backgroundLayer{
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.frame = self.view.bounds;
+    gradientLayer.colors = @[(__bridge id)[UIColor purpleColor].CGColor,(__bridge id)[UIColor redColor].CGColor];
+    gradientLayer.startPoint = CGPointMake(0.5, 0);//左上角是0,0,
+    gradientLayer.endPoint = CGPointMake(0.5, 1);
+    gradientLayer.locations = @[@0.65,@1];//第一个是渐变开始的位置，最后一个是渐变结束的位置
+    return gradientLayer;
+}
+```
+* [ios核心动画高级技巧](https://zsisme.gitbooks.io/ios-/content/chapter1/the-layer-tree.html)
