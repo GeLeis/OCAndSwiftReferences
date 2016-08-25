@@ -221,4 +221,4 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 }
 ```
 * [ios核心动画高级技巧](https://zsisme.gitbooks.io/ios-/content/chapter1/the-layer-tree.html)
-* [炫丽的自定义登录界面]（http://code.cocoachina.com/view/132476）
+* [炫丽的自定义登录界面]（https://github.com/shorty-Man/customeLogin）
