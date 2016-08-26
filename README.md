@@ -226,3 +226,30 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 * layer有个contentsGravity属性，如果iamgeView的ContentMode一样，调整layer的内容展现方式
 * layer.contentsScale用于设置每个点绘制的像素的个数，默认为1,(应用：layer.contentsScale = image.scale)
 * 调用layer的display方法，会触发-(void)displayLayer:(CALayer *)layer，如果没有实现这个方法，那么就会触发-(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx，这两个都是CALayerDelegate方法，非正式协议
+* frame的w和h并不一定与bounds的w和h一致，frame代表的是图层外部(水平垂直交叉后形成的轴)坐标，bounds是指内部坐标，当view发生旋转时，frame，bounds就可能不一样了
+* 通过设置layer的zposition来设置layer的前后关系，越大，那么就越不会被遮住
+* layer的containsPoint:接受一个在本图层坐标系下的CGPoint，如果这个点在图层frame范围内就返回YES
+* 可以通过layer的hitTest方法来判断point是否在layer对应的范围内，point可以通过touchBegan或者UIGestureRecognize的locationInView方法获得
+* 同一个view同时设置masktoBounds进行裁剪和阴影效果时，阴影被裁剪到，看不到，只有用同样大小的view包裹需要进行裁剪的view,用外层的view设置阴影即可。
+* 设置shouldRasterize（栅格化）为yes，可以消除layer存在子图层是，透明度不统一的情况，设置为yes后，图层及子图层都会被当作一个整体
+```objc
+	button2.layer.shouldRasterize = YES;
+	button2.layer.rasterizationScale = [UIScreen mainScreen].scale;//防止出现像素化的问题
+
+```
+* calayer对应view的transform的属性为affineTransform
+* CGAffineTransformRotate(CGAffineTransform t, CGFloat angle)可以用来做混合变换，即可以在之前变换的基础上做其他的变换，CGAffineTransformMakeRotation(M_PI_4)适用于单独变幻
+* #define DEGREES_TO_RADIANS(x) ((x)/180.0*M_PI)   角度转弧度
+* #define RADIANS_TO_DEGREES(x) ((x)/M_PI*180.0)   弧度转角度
+* 通过设置transform.m34 = - 1.0 / 500.0;来设置3d情形下的透视效果。
+* calayer有一个doublesided属性，当view的正面消失时，yes绘制反面内容，no不绘制
+* calayer的每个子图层都是独立的，分别在不同的3d空间
+* [layer中光亮和阴影,3维立方体](https://zsisme.gitbooks.io/ios-/content/chapter5/solid-objects.html)
+* 单独指定圆角
+```objc
+CGRect rect = CGRectMake(50, 50, 100, 100);
+CGSize radii = CGSizeMake(20, 20);
+UIRectCorner corners = UIRectCornerTopRight | UIRectCornerBottomRight | UIRectCornerBottomLeft;
+//create path
+UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:radii];
+```
