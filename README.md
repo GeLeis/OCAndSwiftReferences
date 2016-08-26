@@ -223,3 +223,6 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 * [ios核心动画高级技巧](https://zsisme.gitbooks.io/ios-/content/chapter1/the-layer-tree.html)
 * [炫丽的自定义登录界面]（https://github.com/shorty-Man/customeLogin）
 * 任何uiview都可以通过layer的contents属性，设置一张图片为背景
+* layer有个contentsGravity属性，如果iamgeView的ContentMode一样，调整layer的内容展现方式
+* layer.contentsScale用于设置每个点绘制的像素的个数，默认为1,(应用：layer.contentsScale = image.scale)
+* 调用layer的display方法，会触发-(void)displayLayer:(CALayer *)layer，如果没有实现这个方法，那么就会触发-(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx，这两个都是CALayerDelegate方法，非正式协议
