@@ -254,3 +254,50 @@ UIRectCorner corners = UIRectCornerTopRight | UIRectCornerBottomRight | UIRectCo
 UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:radii];
 ```
 * [Method Swizzling的各种姿势](http://www.cocoachina.com/ios/20160826/17422.html)
+* [CAEmitterLayer发射器的使用]
+```objc
+	CAEmitterLayer *emitter =  [CAEmitterLayer layer];
+	emitter.frame = self.containView.bounds;
+	[self.containView.layer addSublayer:emitter];
+	
+	
+	emitter.renderMode = kCAEmitterLayerAdditive;//将重叠的部分的亮度看上去更亮
+	emitter.emitterPosition = CGPointMake(emitter.frame.size.width / 2, emitter.frame.size.height/ 2);
+	
+	CAEmitterCell *cell = [[CAEmitterCell alloc] init];
+	cell.contents = (__bridge id _Nullable)([UIImage imageNamed:@"evaluation_small-red"].CGImage);
+	cell.birthRate = 150;
+	cell.lifetime = 5.0;
+	cell.color = [UIColor colorWithRed:1 green:0.5 blue:0.1 alpha:1].CGColor;
+	cell.alphaSpeed = -0.1;//意思是说粒子透明度每过一秒就减0.1
+	cell.velocity = 100;//粒子移动的数度
+	cell.velocityRange = 50;//粒子活动的范围
+	cell.emissionRange = 0.001;//360度发射  2 * M_PI
+	emitter.preservesDepth = NO;//是否将3D粒子系统平面化到一个图层
+	
+	emitter.emitterCells = @[cell];
+```
+* [图层动画行为](https://zsisme.gitbooks.io/ios-/content/chapter7/layer-actions.html)
+* 图层在移动的过程中，通过呈现视图的hitTest方法来响应用户事件--呈现与规模
+```objc
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	//get the touch point
+	CGPoint point = [[touches anyObject] locationInView:self.view];
+	//check if we've tapped the moving layer
+	if ([self.colorLayer.presentationLayer hitTest:point]) {
+		//randomize the layer background color
+		CGFloat red = arc4random() / (CGFloat)INT_MAX;
+		CGFloat green = arc4random() / (CGFloat)INT_MAX;
+		CGFloat blue = arc4random() / (CGFloat)INT_MAX;
+		self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
+	} else {
+		//otherwise (slowly) move the layer to new position
+		[CATransaction begin];
+		[CATransaction setAnimationDuration:4.0];
+		self.colorLayer.position = point;
+		[CATransaction commit];
+	}
+}
+```
+* [贝赛尔曲线的控制点,起止点，与曲线形状的关系](http://luoxianming.cn/2016/07/02/UIBezierPath/)
