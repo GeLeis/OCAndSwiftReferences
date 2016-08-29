@@ -301,3 +301,7 @@ UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorn
 }
 ```
 * [贝赛尔曲线的控制点,起止点，与曲线形状的关系](http://luoxianming.cn/2016/07/02/UIBezierPath/)
+* CAKeyframeAnimation动画过程中自动改变layer的方向与曲线切线一致
+```objc
+	animation.rotationMode = kCAAnimationRotateAuto;  
+```
