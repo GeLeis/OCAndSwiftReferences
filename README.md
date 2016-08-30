@@ -324,4 +324,8 @@ UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorn
 * animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];设置动画执行的速度
 * CADisplayLink有个frameInterval属性，表示多少帧执行一次，默认为1，CADisplayLink可以同时加入多个runloop模式，于是可以同时加入NSDefaultRunLoopMode和UITrackingRunLoopMode来保证它不会被滑动打断，也不会被其他UIKit控件动画影响性能，
 ```objc
+self.timer = [CADisplayLink displayLinkWithTarget:self selector:@selector(step:)];
+[self.timer addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+[self.timer addToRunLoop:[NSRunLoop mainRunLoop] forMode:UITrackingRunLoopMode];
 ```
+* scheduledTimerWithTimeInterval创建NSTimer会自动加入runLoop，通过timerWithTimeInterval创建的NSTimer需要手动加入runloop
