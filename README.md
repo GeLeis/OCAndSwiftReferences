@@ -305,3 +305,23 @@ UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorn
 ```objc
 	animation.rotationMode = kCAAnimationRotateAuto;  
 ```
+* CAKeyframeAnimation用于连续的动画变化，CABasicAnimation用于一次性的值变化
+* CATransition  过渡动画，图层行为,一个图层只能添加一个CATransition
+* 图层截图
+```objc
+	UIGraphicsBeginImageContext(layer.bounds.size);
+	[layer renderInContext:UIGraphicsGetCurrentContext()];
+	UIImage *image=UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+```
+* animation.autoreverses = YES设置动画执行完毕后自动逆向执行
+* INFINITY无穷大
+* animation.beginTime = 1，默认为0，是指动画从添加到可见图层到开始执行的时间间隔
+* animation.timeOffset = 0.5,这是指动画开始快进0.5s开始，比如说执行duration为1s，那么从一半的时候开始
+* animation.speed = 2,动画执行的速度，默认为1，如果为2,那么动画执行的速度快一倍，duration为2的动画会被压缩到1s，如果原来的timeOffset为1，那么则从动画执行结束的地方开始。
+* CFTimeInterval time = CACurrentMediaTime();马赫时间
+* 修改layer的speed属性可以暂停(0)，倒退，快进动画，默认为1
+* animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];设置动画执行的速度
+* CADisplayLink有个frameInterval属性，表示多少帧执行一次，默认为1，CADisplayLink可以同时加入多个runloop模式，于是可以同时加入NSDefaultRunLoopMode和UITrackingRunLoopMode来保证它不会被滑动打断，也不会被其他UIKit控件动画影响性能，
+```objc
+```
