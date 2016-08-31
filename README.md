@@ -355,3 +355,4 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 2⃣️制作一个遮罩view，大小与底层的uiiamgView一致，并设置上层遮罩view的遮罩图片.
 
 * 可以通过let bgView = navigationBar.valueForKey("_backgroundView") as? UIView 获取导航栏的背景view
+* [swift小demo，涉及almofire,swfitJson](http://code.cocoachina.com/view/132752)
