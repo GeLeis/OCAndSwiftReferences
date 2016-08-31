@@ -329,3 +329,27 @@ self.timer = [CADisplayLink displayLinkWithTarget:self selector:@selector(step:)
 [self.timer addToRunLoop:[NSRunLoop mainRunLoop] forMode:UITrackingRunLoopMode];
 ```
 * scheduledTimerWithTimeInterval创建NSTimer会自动加入runLoop，通过timerWithTimeInterval创建的NSTimer需要手动加入runloop
+* IOS9之后uiimageView圆角不会触发离屏渲染，uibutton会触发
+* [离屏渲染](https://github.com/seedante/OptimizationForOffscreenRender)如果需要设置遮罩，离屏渲染解决方法1⃣️利用core graphic自己按照遮罩绘图,获取想要形状的图,片,此方法不兼容sdWebImage，
+```objc
+func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radius: CGFloat) -> UIImage {
+    let rect = CGRect(origin: CGPoint(x: 0, y: 0), size: rectSize)
+    UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.mainScreen().scale)
+    let currentContext = UIGraphicsGetCurrentContext()
+    
+    CGContextAddPath(currentContext,
+                     UIBezierPath(roundedRect: rect,
+                        byRoundingCorners: .AllCorners,
+                        cornerRadii: CGSize(width: radius, height: radius)).CGPath)
+    CGContextClip(currentContext)
+    
+    //Don't use CGContextDrawImage, coordinate system origin in UIKit and Core Graphics are vertical oppsite.
+    originImage.drawInRect(rect)
+    CGContextDrawPath(currentContext, .FillStroke)
+    let roundedCornerImage = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+    
+    return roundedCornerImage
+}
+```
+2⃣️制作一个遮罩view，大小与底层的uiiamgView一致，并设置上层遮罩view的遮罩图片.
