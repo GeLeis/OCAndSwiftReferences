@@ -366,4 +366,5 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * frame是相对于父视图，bounds是相对于自身坐标系统来说，如果改变bounds.origin，会改变其自视图的位置，scrollView的原理即如此
 * [两个tableView之间的联动,tableView与collectionView之间的联动](https://github.com/leejayID/Linkage)
 * [多任务下载，断点下载](http://code.cocoachina.com/download/129554)
-* [RSA加密](https://github.com/ideawu/Objective-C-RSA)[AES](http://code.cocoachina.com/download/128370)
+* [RSA加密](https://github.com/ideawu/Objective-C-RSA)[ ,AES加密](http://code.cocoachina.com/download/128370)
+* [swift开发的图表库，折线｜柱状｜饼状](http://code.cocoachina.com/download/125586)
