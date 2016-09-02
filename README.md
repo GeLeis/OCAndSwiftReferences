@@ -360,3 +360,7 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [解决同时发生两个请求，loadingView和noInternetView的弹出消失问题](http://www.jianshu.com/p/07eb268c93f2)
 * [iOS中UIDynamic物理仿真详解](http://www.jianshu.com/p/e096d2dda478)
 * [HCSStarRatingView星星评分控件](http://code.cocoachina.com/download/126259)
+* [NumberMorphView创新的数字变动swift](https://github.com/me-abhinav/NumberMorphView)
+* [BTNavigationDropdownMenu下拉菜单Swift](https://github.com/PhamBaTho/BTNavigationDropdownMenu)
+* [app安全](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=2652547386&idx=5&sn=b70d911ddba8debd2aa086a24bf79407&scene=1&srcid=0902VcWhzkGEFcqUx98OqZGh#rd)[接口加密](https://segmentfault.com/q/1010000002714271)
+* frame是相对于父视图，bounds是相对于自身坐标系统来说，如果改变bounds.origin，会改变其自视图的位置，scrollView的原理即如此
