@@ -359,3 +359,4 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [风格不一样的MRProgress](https://github.com/mrackwitz/MRProgress)
 * [解决同时发生两个请求，loadingView和noInternetView的弹出消失问题](http://www.jianshu.com/p/07eb268c93f2)
 * [iOS中UIDynamic物理仿真详解](http://www.jianshu.com/p/e096d2dda478)
+* [HCSStarRatingView星星评分控件](http://code.cocoachina.com/download/126259)
