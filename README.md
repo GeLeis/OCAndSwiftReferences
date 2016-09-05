@@ -226,7 +226,7 @@ image = [[UIImage imageNamed:@"pop_black_backGround"] resizableImageWithCapInset
 * layer有个contentsGravity属性，如果iamgeView的ContentMode一样，调整layer的内容展现方式
 * layer.contentsScale用于设置每个点绘制的像素的个数，默认为1,(应用：layer.contentsScale = image.scale)
 * 调用layer的display方法，会触发-(void)displayLayer:(CALayer *)layer，如果没有实现这个方法，那么就会触发-(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx，这两个都是CALayerDelegate方法，非正式协议
-* frame的w和h并不一定与bounds的w和h一致，frame代表的是图层外部(水平垂直交叉后形成的轴)坐标，bounds是指内部坐标，当view发生旋转时，frame，bounds就可能不一样了
+* frame的w和h并不一定与bounds的w和h一致，frame代表的是图层外部(水平垂直交叉后形成的轴)坐标，bounds是指内部坐标，contentView视图相对于自身的坐标，当view发生旋转时，frame，bounds就可能不一样了
 * 通过设置layer的zposition来设置layer的前后关系，越大，那么就越不会被遮住
 * layer的containsPoint:接受一个在本图层坐标系下的CGPoint，如果这个点在图层frame范围内就返回YES
 * 可以通过layer的hitTest方法来判断point是否在layer对应的范围内，point可以通过touchBegan或者UIGestureRecognize的locationInView方法获得
@@ -369,3 +369,13 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [RSA加密](https://github.com/ideawu/Objective-C-RSA)[ ,AES加密](http://code.cocoachina.com/download/128370)
 * [swift开发的图表库，折线｜柱状｜饼状](http://code.cocoachina.com/download/125586)
 * [正则表达式](http://www.jb51.net/article/73342.htm) \d用于匹配任意数字，\w匹配字母数字下划线
+* [日志纪录工具](https://github.com/CocoaLumberjack/CocoaLumberjack)，以及取沙盒日志的方法
+```objc
+	1.手机连接Mac电脑，打开Xcode。
+	2.选择顶栏的 Windows 下的 Devices。
+	3.在Devices栏下先选择当前连接的手机设备。
+	4.在 Installed Apps 栏下选择你开发的App（需要取沙盒文件的App）。
+	5.点击底部“齿轮图案”的按钮，选择Download Container…
+```
+* [导航控制器子控制器之间的任意跳转](http://www.cocoachina.com/ios/20160905/17457.html)
+* [launchImage引发的问题](http://www.cocoachina.com/bbs/read.php?tid-1693460.html)
