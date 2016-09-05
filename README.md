@@ -368,3 +368,4 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [多任务下载，断点下载](http://code.cocoachina.com/download/129554)
 * [RSA加密](https://github.com/ideawu/Objective-C-RSA)[ ,AES加密](http://code.cocoachina.com/download/128370)
 * [swift开发的图表库，折线｜柱状｜饼状](http://code.cocoachina.com/download/125586)
+* [正则表达式](http://www.jb51.net/article/73342.htm) \d用于匹配任意数字，\w匹配字母数字下划线
