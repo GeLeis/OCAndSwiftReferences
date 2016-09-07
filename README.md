@@ -382,3 +382,4 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [自定义刷新控件](https://github.com/DaMingShen/SURefresh)
 * [GCD同步锁在属性设置上的应用](http://www.cocoachina.com/special/20160907/17512.html)
 * [关于如何将自己的库添加cocoapods支持](http://www.cocoachina.com/ios/20160907/17501.html)
+* [下载按钮动画](https://github.com/Josin22/JSDownloadView)
