@@ -384,3 +384,6 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [关于如何将自己的库添加cocoapods支持](http://www.cocoachina.com/ios/20160907/17501.html)
 * [下载按钮动画](https://github.com/Josin22/JSDownloadView)
 * [gif制作软件](http://www.cockos.com/licecap)
+* [static Cell和dynamic cell的混合使用](http://www.cocoachina.com/ios/20160909/17518.html)
+* [图片元数据的读写](http://www.cocoachina.com/ios/20160909/17519.html)
+* [Mac上常用软件](http://www.cocoachina.com/ios/20160909/17521.html)
