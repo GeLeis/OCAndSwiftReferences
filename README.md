@@ -387,3 +387,4 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [static Cell和dynamic cell的混合使用](http://www.cocoachina.com/ios/20160909/17518.html)
 * [图片元数据的读写](http://www.cocoachina.com/ios/20160909/17519.html)
 * [Mac上常用软件](http://www.cocoachina.com/ios/20160909/17521.html)
+* [圆形采色器,28l](http://www.cocoachina.com/bbs/read.php?tid-1693814-page-3.html)
