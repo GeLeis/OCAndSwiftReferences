@@ -139,7 +139,7 @@ lbl.attributedText = attString;
 	//给视图赋值图片
 	self.imageView.image = [UIImage imageNamed:@"role_level0_f"];
 ```
-* 隐藏navigatorBar下方的黑线
+* [隐藏navigatorBar下方的黑线](http://www.cocoachina.com/special/20160914/17582.html)
 ```objc
 	[self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 	[self.navigationController.navigationBar setShadowImage:[UIImage new]];
