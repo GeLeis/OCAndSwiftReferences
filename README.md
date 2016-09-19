@@ -389,3 +389,4 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [Mac上常用软件](http://www.cocoachina.com/ios/20160909/17521.html)
 * [圆形采色器,28l](http://www.cocoachina.com/bbs/read.php?tid-1693814-page-3.html)
 * [修改系统控件的显示样式](http://www.cocoachina.com/ios/20160914/17579.html)
+* [文件下载器](http://www.jianshu.com/p/6be80f0067ee)
