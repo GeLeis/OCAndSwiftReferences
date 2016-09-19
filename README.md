@@ -277,7 +277,7 @@ UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorn
 	
 	emitter.emitterCells = @[cell];
 ```
-* [图层动画行为](https://zsisme.gitbooks.io/ios-/content/chapter7/layer-actions.html)
+* [图层动画行为](https://zsisme.gitbooks.io/ios-/content/chapter7/layer-actions.html)  [CAAnimation](http://www.jianshu.com/p/81b571e931cf)
 * 图层在移动的过程中，通过呈现视图的hitTest方法来响应用户事件--呈现与规模
 ```objc
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
