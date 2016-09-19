@@ -1,4 +1,4 @@
-# IosAndSwiftReferences，连接最后为跟贴时间，方便获取最新的资料
+# OCAndSwiftReferences
 some reference sources between study
 * [Aspects](https://github.com/steipete/Aspects): oc中面相切面编程，用于运行时插入／调换方法
 * [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift):swift中用语数据加密的方法库，有MD5,sha1,shae224,sha256,sha384,sha512等
@@ -158,7 +158,7 @@ if ([self.navigationController respondsToSelector:@selector(interactivePopGestur
 }
 
 ```
-* [地图定位](http://code.cocoachina.com/download/132371)
+* [地图定位](http://code.cocoachina.com/download/132371) [当前定位](http://www.cocoachina.com/ios/20160919/17596.html)
 ```objc
 	CLPlacemark *place = placemarks[0];
         self.title = place.name;
