@@ -93,7 +93,7 @@ lbl.attributedText = attString;
 * [ipa的组成](http://www.pchou.info/ios/2015/12/14/ios-certification-and-code-sign.html)
 * [ios动画,UIview](http://www.cocoachina.com/ios/20160727/17199.html)
 * [POP动画框架教程16/7/28](http://www.ui.cn/detail/21148.html)
-* [动画的时间控制CAMediaTimingFunction贝赛尔曲线](http://cubic-bezier.com/)
+* [动画的时间控制CAMediaTimingFunction贝赛尔曲线](http://cubic-bezier.com/),  [贝赛尔曲线的控制点的意义，参照三次贝赛尔曲线动图](http://www.cocoachina.com/ios/20160919/17592.html)
 * [ReactiveCocoa常用方法及类](http://www.cocoachina.com/ios/20160729/17236.html)
 * 自己做data缓存,比如图片,可以用sdCycleScrollView的Nsdate+sdDataCache
 * 利用caLyaer在指定时间内画图
