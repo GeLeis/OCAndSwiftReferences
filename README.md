@@ -391,3 +391,5 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [修改系统控件的显示样式](http://www.cocoachina.com/ios/20160914/17579.html)
 * [文件下载器](http://www.jianshu.com/p/6be80f0067ee)
 * [UIStackView](http://www.jianshu.com/p/213702004d0d)
+* [多线程并发流程控制dispatch_group_notify](http://blog.csdn.net/wangzitao126/article/details/43195533)
+* [关于使用SDWebImage下载图片造成内存暴增crash的解决方法](http://www.cocoachina.com/ios/20160920/17602.html)
