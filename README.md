@@ -55,7 +55,7 @@ if ([self.navigationController respondsToSelector:@selector(interactivePopGestur
 ```
 * [CSStickyHeaderFlowLayout实现collectionView顶部视图的固定，视差，缩放](https://github.com/jamztang/CSStickyHeaderFlowLayout)
 * @dynamic 关键字是相对于 @synthesize 的，它们用样用于修饰 @property，用于生成对应的的 getter 和 setter 方法。但是 @ dynamic 表示这个成员变量的 getter 和 setter 方法并不是直接由编译器生成，而是手工生成或者运行时生成。
-* [UIButton解决同时点击多个按钮](http://xiongzenghuidegithub.github.io/blog/2016/04/22/runtimeying-yong-fang-zhi-an-niu-lian-xu-dian-ji/)
+* [UIButton解决同时点击多个按钮,按钮点击事件拦截](http://xiongzenghuidegithub.github.io/blog/2016/04/22/runtimeying-yong-fang-zhi-an-niu-lian-xu-dian-ji/)
 * 导航栏背景样式设置
 ```objc
 navigationItem.prompt = @"导航标题上方显示的提示内容",如果有值，那么导航栏高度会增加
