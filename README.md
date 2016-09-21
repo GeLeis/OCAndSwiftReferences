@@ -393,3 +393,9 @@ func drawImage(image originImage: UIImage, rectSize: CGSize, roundedRadius radiu
 * [UIStackView](http://www.jianshu.com/p/213702004d0d)
 * [多线程并发流程控制dispatch_group_notify](http://blog.csdn.net/wangzitao126/article/details/43195533)
 * [关于使用SDWebImage下载图片造成内存暴增crash的解决方法](http://www.cocoachina.com/ios/20160920/17602.html)
+* 截屏与在指定范围内截屏
+```objc
+UIView *snapshot = [fromView snapshotViewAfterScreenUpdates:NO];
+
+UIView *snapshot = [fromViewSnapshot resizableSnapshotViewFromRect:snapshotRegion afterScreenUpdates:NO withCapInsets:UIEdgeInsetsZero];
+```
