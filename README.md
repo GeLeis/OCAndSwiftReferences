@@ -399,3 +399,27 @@ UIView *snapshot = [fromView snapshotViewAfterScreenUpdates:NO];
 
 UIView *snapshot = [fromViewSnapshot resizableSnapshotViewFromRect:snapshotRegion afterScreenUpdates:NO withCapInsets:UIEdgeInsetsZero];
 ```
+* [Objective-c消息转发](http://www.cocoachina.com/ios/20160921/17608.html)
+```objc
+接下来说一下types参数，
+比如我们要添加一个这样的方法：-(int)say:(NSString *)str;
+相应的实现函数就应该是这样：
+
+int say(id self, SEL _cmd, NSString *str) 
+{ 
+    NSLog(@"%@", str); 
+    return 100;//随便返回个值 
+ } 
+class_addMethod这句就应该这么写：
+
+class_addMethod([EmptyClass class], @selector(say:), (IMP)say, "i@:@");
+其中types参数为"i@:@“，按顺序分别表示：
+
+i  返回值类型int，若是v则表示void
+
+@  参数id(self)
+
+:  SEL(_cmd)
+
+@  id(str),如果没有参数最后一个@可以不要
+```
