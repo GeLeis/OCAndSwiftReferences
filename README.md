@@ -18,7 +18,7 @@ some reference sources between study
 * [session保存登录状态信息](http://www.tuicool.com/articles/7NV3ueJ)
 * [3DTouch在ios中的应用](http://www.cocoachina.com/ios/20160628/16825.html)
 * [IOS10中自定义Notification界面](http://www.cocoachina.com/ios/20160628/16833.html)
-* [git使用手册](http://www.cocoachina.com/ios/20160629/16855.html)
+* [git使用手册](http://www.cocoachina.com/ios/20160629/16855.html)  [version manager](http://blog.csdn.net/ithomer/article/details/7529022)
 * [IQKeyboard解决键盘遮挡textView的placeholder问题](https://github.com/shorty-Man/IQKeyboardManager)
 * [编程风格指南](http://www.cocoachina.com/swift/20160701/16894.html)
 * [ios直播SDK](https://github.com/shorty-Man/LiveVideoCoreSDK),[RTMP协议介绍及相关服务器](https://blog.linuxeye.com/383.html),[直播全教程16/7/22](http://www.cocoachina.com/ios/20160721/17133.html),  [高仿斗鱼界面](http://code.cocoachina.com/download/128246)   [520直播教程](https://github.com/GrayJIAXU/520Linkee) [仿映客刷礼物效果](https://github.com/cooxu/PresentAnimView)
