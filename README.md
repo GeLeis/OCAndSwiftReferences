@@ -424,3 +424,4 @@ i  返回值类型int，若是v则表示void
 @  id(str),如果没有参数最后一个@可以不要
 ```
 * [类似社交图片浏览PYPhotoBrowser](https://github.com/iphone5solo/PYPhotoBrowser)
+* AFNetworking里面默认Post方式的参数是放在body里面，其他方式get ,head, delete是放在url里面的
