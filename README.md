@@ -425,3 +425,4 @@ i  返回值类型int，若是v则表示void
 ```
 * [类似社交图片浏览PYPhotoBrowser](https://github.com/iphone5solo/PYPhotoBrowser)
 * AFNetworking里面默认Post方式的参数是放在body里面，其他方式get ,head, delete是放在url里面的
+* [IOS后台实时定位](http://www.cocoachina.com/ios/20160927/17652.html)
