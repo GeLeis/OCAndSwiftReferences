@@ -427,3 +427,4 @@ i  返回值类型int，若是v则表示void
 * AFNetworking里面默认Post方式的参数是放在body里面，其他方式get ,head, delete是放在url里面的
 * [IOS后台实时定位](http://www.cocoachina.com/ios/20160927/17652.html)
 * [javascript，html5，reactnative知识](http://www.cocoachina.com/industry/20160928/17662.html)
+* IOS9以前键盘弹出的情况下，点击键盘也会出发键盘下面view的hitTest方法
