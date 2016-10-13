@@ -429,3 +429,4 @@ i  返回值类型int，若是v则表示void
 * [javascript，html5，reactnative知识](http://www.cocoachina.com/industry/20160928/17662.html)
 * IOS9以前键盘弹出的情况下，点击键盘也会出发键盘下面view的hitTest方法
 * [颜色渐变](http://www.jianshu.com/p/3e0e25fd9b85)
+* [丝滑右滑返回FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)
