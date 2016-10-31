@@ -440,3 +440,4 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 				}
 ```
 
+* 解决xcode中使用git管理时存在的UserInterfaceState.xcuserstate问题[1,](http://blog.csdn.net/lovenjoe/article/details/50053255)
