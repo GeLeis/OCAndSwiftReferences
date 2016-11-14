@@ -447,3 +447,4 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [字体高亮可点击](http://code.cocoachina.com/view/129659)
 * [UIMenuController的应用](http://www.wtoutiao.com/p/deaRZw.html)
 * [UITableview右滑触线的菜单](http://www.cocoachina.com/ios/20161114/18070.html)
+* [39个优秀的swiftUI开源库](http://www.cocoachina.com/ios/20161109/18007.html)
