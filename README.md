@@ -445,3 +445,4 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [NSException的使用，补货异常，防止程序崩溃](http://www.cocoachina.com/ios/20161111/18046.html)
 * [多种分格的搜索页面](https://github.com/iphone5solo/PYSearch)
 * [字体高亮可点击](http://code.cocoachina.com/view/129659)
+* [UIMenuController的应用](http://www.wtoutiao.com/p/deaRZw.html)
