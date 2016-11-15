@@ -452,3 +452,5 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [oc优秀的开源项目](https://github.com/thedillonb/CodeHub)
 * [Widget的简单应用并适配iOS10](http://www.cocoachina.com/ios/20161115/18078.html)
 * [svgKit的使用](https://github.com/SVGKit/SVGKit)
+* openURL方法的options参数，通过key(sourceApplication)来确定原来的app
+* [FRDIntent用于解决应用间跳转和应用内部页面跳转](https://github.com/douban/FRDIntent)
