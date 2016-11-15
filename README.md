@@ -450,3 +450,4 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [UITableview右滑触线的菜单](http://www.cocoachina.com/ios/20161114/18070.html)
 * [39个优秀的swiftUI开源库](http://www.cocoachina.com/ios/20161109/18007.html)
 * [oc优秀的开源项目](https://github.com/thedillonb/CodeHub)
+* [Widget的简单应用并适配iOS10](http://www.cocoachina.com/ios/20161115/18078.html)
