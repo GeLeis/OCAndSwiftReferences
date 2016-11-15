@@ -23,6 +23,7 @@ some reference sources between study
 * [编程风格指南](http://www.cocoachina.com/swift/20160701/16894.html)
 * [ios直播SDK](https://github.com/shorty-Man/LiveVideoCoreSDK),[RTMP协议介绍及相关服务器](https://blog.linuxeye.com/383.html),[直播全教程16/7/22](http://www.cocoachina.com/ios/20160721/17133.html),  [高仿斗鱼界面](http://code.cocoachina.com/download/128246)   [520直播教程](https://github.com/GrayJIAXU/520Linkee) [仿映客刷礼物效果](https://github.com/cooxu/PresentAnimView)
 * [gif图片处理](https://github.com/Flipboard/FLAnimatedImage)
+* [基于AFNetworking的封装网络库YTKNetwork](https://github.com/yuantiku/YTKNetwork)
 * [workspace的建立使用](http://www.jianshu.com/p/b6c59d8ed2c9)
 * [静态库,动态库,.a及.framework的区别](http://www.jianshu.com/p/90ef231441fc)
 * [音频视频录制播放](http://www.cnblogs.com/kenshincui/p/4186022.html#avFoundationCamera)，并参考[SlowMotionVideoRecorder](https://github.com/shorty-Man/SlowMotionVideoRecorder)以及[录制后视频压缩](http://www.jianshu.com/p/7c57c58c253d)
