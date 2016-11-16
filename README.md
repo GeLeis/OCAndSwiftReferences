@@ -456,3 +456,4 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * openURL方法的options参数，通过key(sourceApplication)来确定原来的app
 * [FRDIntent用于解决应用间跳转和应用内部页面跳转](https://github.com/douban/FRDIntent)
 * [charles资源](http://xclient.info/s/charles.html)
+* 使用masonry更新约束时，不能更改约束的对象
