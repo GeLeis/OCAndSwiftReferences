@@ -459,3 +459,4 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * 使用masonry更新约束时，不能更改约束的对象
 * [用NSTemporaryDirectory()临时保存文件](http://stackoverflow.com/questions/40625265/avaudiorecorder-can-we-record-without-saving-into-file)
 * [如何解决10分钟内没有触摸屏幕就跳到登录界面](http://stackoverflow.com/questions/8085188/ios-perform-action-after-period-of-inactivity-no-user-interaction/8994884#8994884)
+* [第三方资源库](http://www.cocoachina.com/ios/20160719/17078.html)
