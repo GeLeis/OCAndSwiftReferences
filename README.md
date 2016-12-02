@@ -462,4 +462,5 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [第三方资源库](http://www.cocoachina.com/ios/20160719/17078.html)
 * [状态栏提示](https://github.com/calimarkus/JDStatusBarNotification)
 * [JSPatch基础用法总结](http://www.cocoachina.com/ios/20161202/18264.html)
+* [视频压缩](http://www.jianshu.com/p/1eeaec2ae0fa)
 
