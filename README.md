@@ -461,3 +461,5 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [如何解决10分钟内没有触摸屏幕就跳到登录界面](http://stackoverflow.com/questions/8085188/ios-perform-action-after-period-of-inactivity-no-user-interaction/8994884#8994884)
 * [第三方资源库](http://www.cocoachina.com/ios/20160719/17078.html)
 * [状态栏提示](https://github.com/calimarkus/JDStatusBarNotification)
+* [JSPatch基础用法总结](http://www.cocoachina.com/ios/20161202/18264.html)
+
