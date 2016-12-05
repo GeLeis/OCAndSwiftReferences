@@ -463,4 +463,10 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * [状态栏提示](https://github.com/calimarkus/JDStatusBarNotification)
 * [JSPatch基础用法总结](http://www.cocoachina.com/ios/20161202/18264.html)
 * [视频录制压缩取帧](http://www.jianshu.com/p/6f23f608048e)
+* mediaTypes的几种值及含义
+```objc
+const CFStringRef  kUTTypeMovie ;抽象的媒体格式（声音和视频）
+const CFStringRef  kUTTypeVideo ;只有视频没有声音
+const CFStringRef  kUTTypeAudio ;只有声音没有视频
+```
 
