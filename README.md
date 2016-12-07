@@ -469,4 +469,5 @@ const CFStringRef  kUTTypeMovie ;抽象的媒体格式（声音和视频）
 const CFStringRef  kUTTypeVideo ;只有视频没有声音
 const CFStringRef  kUTTypeAudio ;只有声音没有视频
 ```
+* [ios10关于新机首次安装出现网络请求权限问题](http://www.cocoachina.com/ios/20161206/18304.html)
 
