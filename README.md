@@ -471,4 +471,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 ```
 * [ios10关于新机首次安装出现网络请求权限问题](http://www.cocoachina.com/ios/20161206/18304.html)
 * [高仿微信](https://github.com/shorty-Man/GSD_WeiXin)
-* [reactiveCocoa基本用法](https://gold.xitu.io/entry/57764bb65bbb5000593755c7)，[美团点评技术团队](http://tech.meituan.com/RACSignalSubscription.html)
+* [reactiveCocoa基本用法](https://gold.xitu.io/entry/57764bb65bbb5000593755c7)，[美团点评技术团队](http://tech.meituan.com/tag/ReactiveCocoa)
