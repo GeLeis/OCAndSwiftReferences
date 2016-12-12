@@ -473,3 +473,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [高仿微信](https://github.com/shorty-Man/GSD_WeiXin)
 * [reactiveCocoa基本用法](https://gold.xitu.io/entry/57764bb65bbb5000593755c7)，[美团点评技术团队](http://tech.meituan.com/tag/ReactiveCocoa)
 * arc4random_uniform(n)-->[0,n-1);
+* [MLEmojiLabel](https://github.com/molon/MLEmojiLabel)
