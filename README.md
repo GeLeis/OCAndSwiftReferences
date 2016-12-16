@@ -445,7 +445,7 @@ if ([app respondsToSelector:@selector(openURL:options:completionHandler:)]) {
 * 解决xcode中使用git管理时存在的UserInterfaceState.xcuserstate问题[1,](http://blog.csdn.net/lovenjoe/article/details/50053255),在每次分支和初始化项目时，直接删除UserInterfaceState.xcuserstate，配置文件不知道为什么不管用
 * [为什么说给予tcp的移动端IM仍然需要心跳保活](http://www.cocoachina.com/ios/20161111/18042.html)
 * [NSException的使用，补货异常，防止程序崩溃](http://www.cocoachina.com/ios/20161111/18046.html)
-* [多种分格的搜索页面](https://github.com/iphone5solo/PYSearch)
+* [多种分格的搜索页面PYSearch](https://github.com/iphone5solo/PYSearch)
 * [字体高亮可点击](http://code.cocoachina.com/view/129659)
 * [UIMenuController的应用](http://www.wtoutiao.com/p/deaRZw.html)
 * [UITableview右滑触线的菜单](http://www.cocoachina.com/ios/20161114/18070.html)
