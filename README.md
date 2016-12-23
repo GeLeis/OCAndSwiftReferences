@@ -475,3 +475,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * arc4random_uniform(n)-->[0,n-1);
 * [MLEmojiLabel](https://github.com/molon/MLEmojiLabel)
 * [AFN/YYcache封装](https://github.com/jkpang/PPNetworkHelper)
+* [UITableViewCell高度自动计算](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
