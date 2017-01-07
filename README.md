@@ -477,3 +477,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [AFN/YYcache封装](https://github.com/jkpang/PPNetworkHelper)
 * [UITableViewCell高度自动计算](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
 * [UItableviewcell动态计算高度](http://blog.csdn.net/tangaowen/article/details/50985352)
+* 去除UIButton选中状态下背景图片的变化 segmentButton.adjustsImageWhenHighlighted = NO;或者自定义uibutton，重写高亮方法
