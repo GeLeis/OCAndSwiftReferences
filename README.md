@@ -482,3 +482,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * 10进制转16进制 echo 'ibase=10;obase=16;801313'|bc
 * [realIM参考](http://www.jianshu.com/p/096bec929f2a)
 * [iOS库](http://www.cocoachina.com/ios/20170208/18647.html)
+* [UISearchController](http://www.tuicool.com/articles/zYjURr)
