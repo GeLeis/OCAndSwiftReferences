@@ -483,3 +483,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [realIM参考](http://www.jianshu.com/p/096bec929f2a)
 * [iOS库](http://www.cocoachina.com/ios/20170208/18647.html)
 * [UISearchController](http://www.tuicool.com/articles/zYjURr)
+* [SAMKeychain](https://github.com/soffes/SAMKeychain)
