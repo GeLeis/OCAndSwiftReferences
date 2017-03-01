@@ -485,3 +485,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [UISearchController](http://www.tuicool.com/articles/zYjURr)
 * [SAMKeychain](https://github.com/soffes/SAMKeychain)
 * [runloop深入浅出的理解](http://www.cocoachina.com/ios/20170224/18763.html)
+* [iOS下的RSA加密方法](http://blog.csdn.net/baidu_25743639/article/details/50801594)
