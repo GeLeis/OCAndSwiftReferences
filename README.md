@@ -486,3 +486,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [SAMKeychain](https://github.com/soffes/SAMKeychain)
 * [runloop深入浅出的理解](http://www.cocoachina.com/ios/20170224/18763.html)
 * [iOS下的RSA加密方法](http://blog.csdn.net/baidu_25743639/article/details/50801594)
+* [下载高清图像导致内存暴增的解决办法](http://www.cocoachina.com/ios/20160920/17602.html)
