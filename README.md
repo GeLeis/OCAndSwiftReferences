@@ -490,3 +490,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [事件穿透](http://www.jianshu.com/p/0bece5f27650)
 * [LazyScrollView](https://github.com/alibaba/LazyScrollView)
 * [ios组件化JLRoutes](https://github.com/joeldev/JLRoutes)
+* [sdwebImage下载指示器](UIActivityIndicator-for-SDWebImage)
