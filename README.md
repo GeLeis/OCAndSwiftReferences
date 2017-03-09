@@ -491,3 +491,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [LazyScrollView](https://github.com/alibaba/LazyScrollView)
 * [ios组件化JLRoutes](https://github.com/joeldev/JLRoutes)
 * [sdwebImage下载指示器](UIActivityIndicator-for-SDWebImage)
+* [MVVM项目讲解](http://blog.leichunfeng.com/blog/2016/02/27/mvvm-with-reactivecocoa/)
