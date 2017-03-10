@@ -492,3 +492,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [ios组件化JLRoutes](https://github.com/joeldev/JLRoutes)
 * [sdwebImage下载指示器](UIActivityIndicator-for-SDWebImage)
 * [MVVM项目讲解](http://blog.leichunfeng.com/blog/2016/02/27/mvvm-with-reactivecocoa/)
+* [app介绍页](https://github.com/ealeksandrov/EAIntroView)
