@@ -493,3 +493,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [sdwebImage下载指示器](UIActivityIndicator-for-SDWebImage)
 * [MVVM项目讲解](http://blog.leichunfeng.com/blog/2016/02/27/mvvm-with-reactivecocoa/)
 * [app介绍页](https://github.com/ealeksandrov/EAIntroView)
+* [高度自动变幻输入框SlackTextViewController](https://github.com/slackhq/SlackTextViewController)
