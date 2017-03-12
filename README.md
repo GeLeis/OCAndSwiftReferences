@@ -494,3 +494,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [MVVM项目讲解](http://blog.leichunfeng.com/blog/2016/02/27/mvvm-with-reactivecocoa/)
 * [app介绍页](https://github.com/ealeksandrov/EAIntroView)
 * [高度自动变幻输入框SlackTextViewController](https://github.com/slackhq/SlackTextViewController)
+* new和alloc的却别:new的作用基本上和alloc相同，都是分配内存空间，但是alloc将关联对象的内存分配在一起，减少调用时间，提升效率
