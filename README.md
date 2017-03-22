@@ -499,3 +499,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [AES加密在ios中的应用](http://www.jianshu.com/p/df828a57cb8f)
 * [ios新增动画可暂停UIViewPropertyAnimator]()
 * [IOS10下的下载器](https://github.com/yueshangfeng/ZYLDownloader)
+* [富文本点击可跳转](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
