@@ -500,3 +500,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [ios新增动画可暂停UIViewPropertyAnimator]()
 * [IOS10下的下载器](https://github.com/yueshangfeng/ZYLDownloader)
 * [富文本点击可跳转TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
+* [swift常用说明库](http://www.jianshu.com/p/e3bca6989374)
