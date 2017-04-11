@@ -503,3 +503,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [swift常用说明库](http://www.jianshu.com/p/e3bca6989374)
 * xcode8中文档注释使用command + option + /
 * [swift仿微信](https://github.com/hilen/TSWeChat)
+* [ios禁用表情](http://www.jianshu.com/p/5c44e7098761)
