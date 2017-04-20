@@ -506,3 +506,17 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 * [ios禁用表情](http://www.jianshu.com/p/5c44e7098761)
 * discardableResult函数返回值可以不使用
 * [按钮汉化](http://www.myexception.cn/operating-system/1701881.html)
+* block本身是oc对象，但是创建的时候是在栈上，而不是在堆上，而栈上的内存是由系统自动管理释放的，在创建的作用域外就不能调用。所以需要把block copy到堆。
+```
+	__block和__weak的区别。
+	__block在ARC和MRC模式下都可以使用，可以修饰对象也可以修饰基本能数据类型，
+	__weak只能在ARC模式下使用
+	__block对象可以在bock中被重新赋值
+	__weak对象不可以
+```
+* 手动出发kvo的方法
+```
+	[self willChangeValueForKey:@"now"]; // “手动触发self.now的KVO”，必写。
+	[self didChangeValueForKey:@"now"]; // “手动触发self.now的KVO”，必写。
+	在调用存取方法之前总是调用willchangeValueForkey,之后调用didChangeValueForKey
+```
