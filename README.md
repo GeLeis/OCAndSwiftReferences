@@ -520,3 +520,7 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 	[self didChangeValueForKey:@"now"]; // “手动触发self.now的KVO”，必写。
 	在调用存取方法之前总是调用willchangeValueForkey,之后调用didChangeValueForKey
 ```
+* express查找
+```
+	property(?!.*IBOutlet).+(assign|weak).+\*
+```
