@@ -525,3 +525,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 	property(?!.*IBOutlet).+(assign|weak).+\*
 ```
 * [控制器过渡动画](https://github.com/lkzhao/Hero)
+* [2017新秀第三方库](https://sdk.cn/news/7089)
