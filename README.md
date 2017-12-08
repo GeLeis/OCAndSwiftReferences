@@ -526,3 +526,4 @@ const CFStringRef  kUTTypeAudio ;只有声音没有视频
 ```
 * [控制器过渡动画](https://github.com/lkzhao/Hero)
 * [2017新秀第三方库](https://sdk.cn/news/7089)
+* [谷歌热门开源项目](http://gad.qq.com/article/detail/37313)
